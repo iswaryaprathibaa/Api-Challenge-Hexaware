@@ -1,0 +1,83 @@
+.addbook-container {
+  width: 100%;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: #f1f5f9;
+}
+
+.addbook-form {
+  width: 400px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 16px;
+
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.addbook-form h1 {
+  text-align: center;
+
+  color: #0f172a;
+}
+
+.addbook-form input {
+  padding: 14px;
+
+  border: 1px solid #cbd5e1;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+
+  outline: none;
+}
+
+.addbook-form input:focus {
+  border: 1px solid #38bdf8;
+}
+
+.addbook-form button {
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #0f172a;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.addbook-form button:hover {
+  background: #1e293b;
+}
+
+.message {
+  text-align: center;
+
+  color: green;
+
+  font-weight: bold;
+}
